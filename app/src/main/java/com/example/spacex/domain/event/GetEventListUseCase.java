@@ -1,4 +1,4 @@
-package com.example.spacex.domain;
+package com.example.spacex.domain.event;
 
 import com.example.spacex.domain.entity.ItemEventEntity;
 import com.example.spacex.domain.entity.Status;

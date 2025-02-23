@@ -6,7 +6,7 @@ import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
 import com.example.spacex.data.EventRepositoryImpl;
-import com.example.spacex.domain.GetEventListUseCase;
+import com.example.spacex.domain.event.GetEventListUseCase;
 import com.example.spacex.domain.entity.ItemEventEntity;
 import com.example.spacex.domain.entity.Status;
 
@@ -14,7 +14,7 @@ import java.util.List;
 
 public class EventListViewModel extends ViewModel {
 
-    private final MutableLiveData<State> mutableLiveData = new MutableLiveData<State>();
+    private final MutableLiveData<State> mutableLiveData = new MutableLiveData<>();
 
     public final LiveData<State> stateLiveData = mutableLiveData;
 

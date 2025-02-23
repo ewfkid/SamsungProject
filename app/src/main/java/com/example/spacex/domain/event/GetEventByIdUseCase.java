@@ -1,4 +1,4 @@
-package com.example.spacex.domain;
+package com.example.spacex.domain.event;
 
 import androidx.annotation.NonNull;
 

@@ -7,7 +7,7 @@ import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
 import com.example.spacex.data.EventRepositoryImpl;
-import com.example.spacex.domain.GetEventByIdUseCase;
+import com.example.spacex.domain.event.GetEventByIdUseCase;
 import com.example.spacex.domain.entity.FullEventEntity;
 
 public class EventViewModel extends ViewModel {
