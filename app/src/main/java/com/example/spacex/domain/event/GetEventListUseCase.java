@@ -7,6 +7,7 @@ import java.util.List;
 import java.util.function.Consumer;
 
 public class GetEventListUseCase {
+
     private final EventRepository repo;
 
     public GetEventListUseCase(EventRepository repo) {

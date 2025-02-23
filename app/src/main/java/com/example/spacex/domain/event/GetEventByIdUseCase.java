@@ -8,6 +8,7 @@ import com.example.spacex.domain.entity.Status;
 import java.util.function.Consumer;
 
 public class GetEventByIdUseCase {
+
     private final EventRepository repo;
 
     public GetEventByIdUseCase(EventRepository repo) {
